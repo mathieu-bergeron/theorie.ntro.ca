@@ -31,7 +31,7 @@ bookHidden: true
 * Voici l'interface de la première version de notre `Tableau` générique:
 
     ```java
-    {{% embed src="./TableauV1.java" indent="1" %}}
+    {{% embed src="/extra/code/tableau_generique/TableauV1.java" indent="1" %}}
     ```
 
 * Le `Tableau` peut faire trois choses:
