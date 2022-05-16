@@ -1,3 +1,3 @@
 # asdf
 
-{{% link "test.png" "test" %}}
+{{% link "./test.png" "test" %}}
