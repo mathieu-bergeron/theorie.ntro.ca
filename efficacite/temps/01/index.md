@@ -7,7 +7,7 @@ bookHidden: true
 
 # Théorie 3.1: structure générique (1)
 
-{{% video src="./01.mp4" width="50%" %}}
+{{% video src="01.mp4" width="50%" %}}
 
 * Comment définir un tableau générique? ($[link ../../../02/01/theorie/](théorie 2.1))
 
@@ -20,9 +20,8 @@ bookHidden: true
 
 ## Première version: `Object[] tableau`
 
-<center>
-<video width="50%" src="02.mp4" type="video/mp4" controls>
-</center>
+{{% video src="02.mp4" width="50%" %}}
+
 
 * En java, une classe hérite toujours de `Object`
 
@@ -48,14 +47,18 @@ bookHidden: true
 
 * L'implantation commence comme suit:
 
-$[java ./MonTableauV1 1 8]()
+```java
+{{% embed src="MonTableauV1.java" first-line="1" last-line="8" %}}
+```
 
 * Le constructeur permet de spécifier les valeurs initiales (un tableau d'`Object`)
     * ces valeurs sont mémorisées dans un attribut privé
 
 * Le tableau est générique. On peut créer plusieurs types de tableaux:
 
-$[java ./UtiliserV1 5 13]()
+```java
+{{% embed src="UtiliserV1.java" first-line="5" last-line="13" %}}
+```
 
 * L'implantation de `modifierValeur` et `obtenirValeur` est simple:
 
