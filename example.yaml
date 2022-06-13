@@ -3,4 +3,19 @@ summary: Résumé sur *une* ligne
 summary.en: Summary on one line
 children:
   - theorie.example02
+
   - theorie.example03
+
+  - title: Sous-titre
+    summary: sous-résumé
+
+  - titre *directement* dans le **yaml**
+
+  - 
+    |
+      # Titre à traduire en sous-titre
+    
+      1. un
+      1. deux
+      1. trois
+      1. quatre
