@@ -1,23 +1,6 @@
-title: Voici mon titre
+title: Efficacité en temps
 summary: Résumé sur *une* ligne
 summary.en: Summary on one line
 children:
   - theorie.example02
   - theorie.example03
-  - title: Inclusion directe
-    summary: Résumé X
-    text:
-      |
-        asdf
-
-        1. un
-          * asdf
-          * asdf
-        1. deux
-        1. trois
-        1. quatre
-  - 
-    |
-      # Titre pour une inclusion directe
-
-      asdfasdf *ASDF* 
