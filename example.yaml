@@ -1,0 +1,15 @@
+title: Voici mon titre
+summary: Résumé sur *une* ligne
+summary.en: Summary on one line
+subnodes:
+  - efficacite.temps.01  # inclusion
+  - efficacite.temps.02
+  - efficacite.temps.03
+  - 
+    |
+      # Titre 
+    
+      asdfasdf *ASDF* 
+
+    
+    
